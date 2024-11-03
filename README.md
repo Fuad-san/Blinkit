@@ -20,6 +20,7 @@ To install the required packages, run the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 ## Installation
@@ -41,8 +42,9 @@ pip install -r requirements.txt
    ```
 
 ## Running the Game
+   ```bash
    python Blinkit.py
-
+   ```
 
 ## Controls
 

@@ -88,6 +88,8 @@ class ModernDontBlinkGame:
 
     def end_game(self):
         # Display game over message
+        total_time = int(time.time() - self.start_time)  # Calculate elapsed time
+        messagebox.showinfo("Game Over", f"You blinked! Your score was: {self.game_logic.score}. You lasted {total_time} seconds.")
         
         # Release the camera if it's open
         if hasattr(self, 'cap') and self.cap.isOpened():
